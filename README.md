@@ -1,5 +1,4 @@
-> Analyses for the ECPR GC 2023 paper "Policy cycle effect of participatory procedures"
-
+A Python project template
 
 # Basic usage
 

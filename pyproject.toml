@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "polcyc-effect"
+name = ""
 version = "0.1.0"
-description = "Analyses for the ECPR GC 2023 paper 'Policy cycle effect of participatory procedures'"
+description = ""
 license = ""
 authors = ["Uwe Remer <uwe.remer@outlook.com>"]
 readme = "README.md"
-repository = "https://github.com/uweremer/polcyc_effect.git"
+repository = "url"
 documentation = "url"
-keywords = ["css", "nlp"]
+keywords = ["key1", "key2"]
 packages = [{include = "src"}]
 
 
