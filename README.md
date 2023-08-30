@@ -1,5 +1,4 @@
-# template
-Template repo for python projects
+> Analyses for the ECPR GC 2023 paper "Policy cycle effect of participatory procedures"
 
 
 # Basic usage
