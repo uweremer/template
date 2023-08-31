@@ -36,10 +36,11 @@ Create a new `config.ini` based on the [config.ini.template](config.ini.template
 
 ## Database usage
 
-If you want to use PostgreSQL as database, fire up a docker environment e.g. as provided in the `docker-compose.yaml`:
+If you want to use PostgreSQL as database, fire up a docker environment e.g. as provided in the `compose.yaml`:
 
 ```sh
-sudo docker-compose -f docker-compose.yaml --env-file config.ini up -d
+sudo service docker start
+sudo docker-compose -f compose.yaml --env-file config.ini up -d
 ```
 
 Don't forget to provide the credentials within the `config.ini`.
