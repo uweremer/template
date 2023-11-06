@@ -21,6 +21,8 @@ A Python project template
 
     Make sure to select the poetry env as kernel in VSCode: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>  -> `Select Interpreter`
 
+   | Note: Update dependencies in `pyproject.toml` after `poetry update`. Also update versions in `pre-commit-config.yaml`.
+
 ## Config.ini
 
 Create a new `config.ini` based on the [config.ini.template](config.ini.template).
