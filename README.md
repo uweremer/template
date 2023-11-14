@@ -21,7 +21,7 @@ A Python project template
 
     Make sure to select the poetry env as kernel in VSCode: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>  -> `Select Interpreter`
 
-    Note: to remove a poetry env, tpye: `rm -rf $(poetry config virtualenvs.path)/*`
+   | Note: Update dependencies in `pyproject.toml` after `poetry update`. Also update versions in `pre-commit-config.yaml`. To remove a poetry env, tpye: `rm -rf $(poetry config virtualenvs.path)/*`
 
 
 ## Config.ini
